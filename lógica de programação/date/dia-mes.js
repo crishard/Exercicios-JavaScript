@@ -86,3 +86,14 @@ function criaData(data){
 }
 
 console.log(criaData(data));
+
+
+/**Forma mais simples, usando com html */
+const data = new Date();
+
+const opcoes = {
+    dateStyle: 'full',
+    timeStyle: 'short'
+};
+
+console.log('pt-BR', opcoes);
