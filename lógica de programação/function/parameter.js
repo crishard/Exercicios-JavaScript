@@ -47,10 +47,10 @@ test({nome: "Crislân", sobrenome: "Torres", idade: 21});
 //******************************************************************/
 
 // with array
-function test({valor1, valor2, valor3}){
+function func({valor1, valor2, valor3}){
     console.log(valor1, valor2,valor3);
 }
 //literal object 
 
 // ob = {nome: "Crislân", sobrenome: "Torres", idade: 21}
-test({nome: "Crislân", sobrenome: "Torres", idade: 21});
+func(["Crislân", "Torres", 21]);
